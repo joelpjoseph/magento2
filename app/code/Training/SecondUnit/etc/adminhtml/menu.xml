@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+     <add id="Training_SecondUnit::menu" title="Custom Menu" module="Training_SecondUnit" sortOrder="10" resource="Training_SecondUnit::menu"/>
+     <add id="Training_SecondUnit::create" title="Create" module="Training_SecondUnit" sortOrder="10" parent="Training_SecondUnit::menu" action="custommenu/create/index" resource="Training_SecondUnit::create"/>
+     <add id="Training_SecondUnit::delete" title="Delete" module="Training_SecondUnit" sortOrder="20" parent="Training_SecondUnit::menu" action="custommenu/delete/index" resource="Training_SecondUnit::delete"/>
+     <add id="Training_SecondUnit::view" title="View" module="Training_SecondUnit" sortOrder="30" parent="Training_SecondUnit::menu" action="custommenu/view/index" resource="Training_SecondUnit::view"/>
+    </menu>
+</config>

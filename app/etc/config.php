@@ -238,9 +238,12 @@ return [
         'Klarna_Core' => 1,
         'Klarna_Ordermanagement' => 1,
         'Klarna_Kp' => 1,
+        'Learning_HelloWorld' => 1,
         'Magento_PaypalReCaptcha' => 1,
         'MSP_TwoFactorAuth' => 1,
         'Temando_Shipping' => 1,
+        'Training_HelloWorld' => 1,
+        'Training_SecondUnit' => 1,
         'Vertex_Tax' => 1,
         'Vertex_AddressValidation' => 1,
         'Yotpo_Yotpo' => 1
