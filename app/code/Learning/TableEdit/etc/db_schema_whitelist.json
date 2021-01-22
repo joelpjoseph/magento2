@@ -1,0 +1,12 @@
+{
+    "student_details": {
+        "column": {
+            "student_id": true,
+            "student_name": true,
+            "student_marks": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

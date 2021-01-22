@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="student_details" resource="default" engine="innodb" comment="Student Details">
+        <column xsi:type="int" name="student_id" padding="10" unsigned="true" nullable="false" identity="true"
+                comment="Student ID"/>
+        <column xsi:type="varchar" name="student_name" nullable="false" length="32" default="simple" comment="Student Name"/>
+        <column xsi:type="int" name="student_marks" padding="10" unsigned="true" nullable="false" identity="false"
+                default="0" comment="Student Mark"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="student_id"/>
+        </constraint>
+    </table>
+</schema>

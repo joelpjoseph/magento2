@@ -1,0 +1,13 @@
+<h2>All Students</h2>
+<?php $student = $this->getViewModel()->getAllStudent(); ?>
+<?php foreach($student as $s): ?>
+    <div>
+        <h3><?php echo $s->getStudent_name(); ?></h3> <br />
+        ID : <?php echo $s->getStudent_id(); ?> <br />
+        Marks : <?php echo $s->getStudent_marks(); ?> <br />
+    </div>
+<?php endforeach; ?>
+
+<h2>First Student</h2>
+<?php $s = $this->getViewModel()->getStudent(1); ?>
+<?php echo $s->getStudent_name().", ".$s->getStudent_marks(); ?>
