@@ -242,6 +242,7 @@ return [
         'Learning_EventTest' => 1,
         'Learning_FooterEdit' => 1,
         'Learning_HelloWorld' => 1,
+        'Learning_SayHello' => 1,
         'Learning_TableEdit' => 1,
         'Magento_PaypalReCaptcha' => 1,
         'MSP_TwoFactorAuth' => 1,
