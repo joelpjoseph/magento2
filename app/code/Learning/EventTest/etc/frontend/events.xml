@@ -3,4 +3,7 @@
     <event name="learning_eventtest_display_text">
         <observer name="mp_display_text" instance="Learning\EventTest\Observer\ChangeDisplayText" />
     </event>
+    <event name="controller_action_predispatch">
+        <observer name="eventurl" instance="Learning\EventTest\Observer\LogUrl" />
+    </event>
 </config>
