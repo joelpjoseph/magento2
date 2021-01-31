@@ -1,8 +1,9 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
+
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route frontName="studenthi" id="studenthi">
-            <module name="Learning_TableEdit"/>
+        <route id="Routerlist" frontName="routerlist">
+            <module name="Learning_RouterList" />
         </route>
     </router>
 </config>
