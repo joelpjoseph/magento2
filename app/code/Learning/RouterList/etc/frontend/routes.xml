@@ -2,7 +2,7 @@
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="Routerlist" frontName="routerlist">
+        <route id="routerlist" frontName="routerlist">
             <module name="Learning_RouterList" />
         </route>
     </router>

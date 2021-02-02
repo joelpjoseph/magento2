@@ -4,6 +4,8 @@ namespace Learning\SayHello\Controller\Index;
 class Display extends \Magento\Framework\App\Action\Action
 {
 	protected $_resultPageFactory;
+	protected $resultPage;
+
 	public function __construct(
 		\Magento\Framework\App\Action\Context $context,
 		\Magento\Framework\View\Result\PageFactory $resultPageFactory)
