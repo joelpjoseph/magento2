@@ -4,8 +4,8 @@ namespace Learning\TableHello\ViewModel;
 
 use Magento\Framework\View\Element\Block\ArgumentInterface;
 
-use Learning\TableEdit\Model\StudentFactory;
-use Learning\TableEdit\Model\ResourceModel\Student\CollectionFactory;
+use Learning\TableHello\Model\StudentFactory;
+use Learning\TableHello\Model\ResourceModel\Student\CollectionFactory;
 
 class Student implements ArgumentInterface
 {
@@ -27,10 +27,9 @@ class Student implements ArgumentInterface
     
     public function getStudent($id)
     {   
-        var_dump(99);
+        
         $s = $this->studentFactory->create();
         $s->load($id);
-        
         return $s;
     }
 }

@@ -36,6 +36,11 @@ class Log extends \Magento\Framework\App\Action\Action {
      */
     public function execute()
     {
+        $writer = new \Zend\Log\Writer\Stream(BP . '/var/log/test.log');
+        $logger = new \Zend\Log\Logger();
+        $logger->addWriter($writer);
+        $logger->info($this->getRoutersString());
+
         var_dump($this->getRoutersString());
         die("All routers have been printed");
     }
