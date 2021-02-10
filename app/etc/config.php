@@ -239,6 +239,8 @@ return [
         'Klarna_Ordermanagement' => 1,
         'Klarna_Kp' => 1,
         'Learning_ClothingMaterial' => 1,
+        'Learning_CustomRouter' => 1,
+        'Learning_EmptyObserver' => 1,
         'Learning_EventDemo' => 1,
         'Learning_EventTest' => 1,
         'Learning_FooterEdit' => 1,
