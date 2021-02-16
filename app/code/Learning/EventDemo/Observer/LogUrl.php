@@ -9,7 +9,7 @@ class LogUrl implements \Magento\Framework\Event\ObserverInterface
 	{
 
 		$url = $observer->getPathInfo();
-        var_dump($url);
+        // var_dump($url);
         $writer = new \Zend\Log\Writer\Stream(BP . '/var/log/hello.log');
         $logger = new \Zend\Log\Logger();
         $logger->addWriter($writer);
